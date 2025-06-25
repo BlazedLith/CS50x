@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to an external CSS file -->
+</head>
+<body>
+    <div class="countdown" style="background-color: white; padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); max-width: 800px; margin: 0 auto;">
+        <h1 class="title" style="font-size: 36px; margin-top: 20px; background-color: blue; color: white; padding: 10px; text-align: center;">Countdown Timer</h1>
+        <div class="countdown-form" style="margin-top: 20px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center;">
+            <input type="datetime-local" id="targetDate" placeholder="Select date and time" style="padding: 10px; margin: 10px; border: 2px solid blue; border-radius: 5px; font-size: 18px; width: 100%; max-width: 300px;">
+            <input type="text" id="eventName" placeholder="Event name" style="padding: 10px; margin: 10px; border: 2px solid blue; border-radius: 5px; font-size: 18px; width: 100%; max-width: 300px;">
+            <button id="addCountdown" style="padding: 12px 24px; background-color: blue; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 18px; margin-top: 10px;">Add Countdown</button>
+        </div>
+        <table class="countdown-table" style="width: 100%; margin-top: 20px; border-collapse: collapse;">
+            <thead>
+                <tr style="background-color: blue; color: white;">
+                    <th style="padding: 10px; text-align: center;">Name</th>
+                    <th style="padding: 10px; text-align: center;">Remaining Time</th>
+                    <th style="padding: 10px; text-align: center;">Progress</th>
+                    <th style="padding: 10px; text-align: center;">Actions</th>
+                </tr>
+            </thead>
+            <tbody id="countdowns">
+                <!-- Countdowns will be added dynamically here -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

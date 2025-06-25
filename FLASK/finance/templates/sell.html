@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Sell
+{% endblock %}
+
+{% block main %}
+    <form action="/sell" method="post">
+        <div class="mb-3">
+            <select class="form-select" id="symbol" name="symbol">
+                <option value="" disabled selected>Select Symbol</option>
+                <!-- Add options dynamically based on user's owned symbols -->
+                <!-- Example: <option value="AAPL">AAPL</option> -->
+            </select>
+        </div>
+        <div class="mb-3">
+            <input class="form-control" id="shares" name="shares" placeholder="Shares" type="text">
+        </div>
+        <button class="btn btn-primary" type="submit">Sell</button>
+    </form>
+{% endblock %}

@@ -1,0 +1,7 @@
+If songs.db contains the top 100 songs of one listener from 2018, how would you characterize their audio aura?
+
+I would analyze the average energy, valence, and danceability of those songs to cahracterize their audio aura.
+
+Hypothesize about why the way you’ve calculated this aura might not be very representative of the listener. What better ways of calculating this aura would you propose?
+
+Only 100 songs cannot represent a listener's audio aura. The tastes and the music somoeone likes also changes significantly according to their mood and in general overtime. Taking their mood input and providing a longer list can be a better way for calculating audio aura.

@@ -1,0 +1,39 @@
+.countdown-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    table-layout: fixed; /* Added for equal column widths */
+}
+
+.countdown-table th, .countdown-table td {
+    border: 1px solid blue; /* Add borders to table cells */
+    padding: 10px;
+    text-align: center;
+}
+
+.countdown-row {
+    background-color: white;
+    color: blue;
+}
+
+.timer-text {
+    font-size: 18px;
+    color: blue;
+}
+
+.progress-bar {
+    background-color: blue;
+    height: 10px;
+    transition: width 1s linear;
+}
+
+.action-button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+    background-color: blue;
+    color: white;
+}
