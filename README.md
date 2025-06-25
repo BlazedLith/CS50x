@@ -18,3 +18,7 @@ This repository contains my solutions to Harvard University's [CS50x](https://cs
 
 ## ⚠️ Disclaimer
 These solutions are shared for educational purposes only. Please adhere to Harvard's [academic honesty policy](https://cs50.harvard.edu/x/honesty/) if you're currently taking the course.
+
+---
+
+**Repo by Wasiq Amir**
